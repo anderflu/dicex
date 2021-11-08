@@ -25,7 +25,7 @@
 //
 //====================================================================
 
-module mazeEscaper ( input logic [size-1:0] maze[size-1:0],
+module mazeEscaper ( input logic [size-1:0] maze[size-1:0], //List of list of ones(wall) and zeros(open path)
                      input logic             clk,
                      input logic             rst,
                      output logic [N-1:0]           x,
@@ -34,7 +34,7 @@ module mazeEscaper ( input logic [size-1:0] maze[size-1:0],
                      output logic [size-1:0] path[size-1:0]
                      );
 
-   parameter size = 9;
+   parameter size = 19;
    parameter N = 3;
 
    parameter FIND_START=0, FIND_STOP=1, VISIT=2, PICK_NEXT=3,MOVE=4,STOP=5,WASTE=6;
@@ -61,8 +61,8 @@ module mazeEscaper ( input logic [size-1:0] maze[size-1:0],
 
       if(rst) begin
          state <= FIND_STOP;
-         x  = 0;
-         y = 0;
+         x  = 0; //Coordinate in x-direction
+         y = 0; //Coordinate in y-direction
          sx = 0;
          sy = size-1;
          direction = DOWN;
@@ -78,10 +78,10 @@ module mazeEscaper ( input logic [size-1:0] maze[size-1:0],
              else
                state <= FIND_START;
            FIND_START:
-             if(maze[0][x])
+             if(maze[0][x]) //
                x++;
              else
-               state <= WASTE;
+               state <= VISIT;
            VISIT: begin
               path[y][x] = 1 ;
 
@@ -90,13 +90,13 @@ module mazeEscaper ( input logic [size-1:0] maze[size-1:0],
               else
                 state <= PICK_NEXT;
            end
-           WASTE: begin
+/*            WASTE: begin
               // Let's waste some time just to get a bad result
               if(waste > 1000)
                 state <= VISIT;
 
               waste += 1;
-           end
+           end */
            PICK_NEXT: begin
               case(direction)
                 LEFT: begin

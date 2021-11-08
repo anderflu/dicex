@@ -9,7 +9,7 @@ a2vg:
 	cat a2.csv|grep ",1.5"
 
 a2dvx:
-	${plt} a2.csv v2 "v(vx)"
+	${plt} a2.csv v2 "v(vx)" same
 
 a2vx:
 	${plt} a2.csv Frequency "vm(vx)" db20
@@ -37,7 +37,7 @@ pltvg:
 	${plt} cm.csv v2 "v(vg1),v(vg2),v(vg3),v(vg4)" same
 
 pltvs:
-	${plt} cm.csv v2 "v(vs1),v(vs2),v(vs3),v(vs4)" same
+	${plt} cm.csv v2 "v(vs1),v(vs2),v(v a2vxmaks3),v(vs4)" same
 
 pltid:
 	${plt} cm.csv v2 "i(vd1),i(vd2),i(vd3)" same
@@ -49,7 +49,14 @@ aim:
 	aimspice ${TB}.cir -o csv | tee ${TB}.sim
 	@cat ${TB}.sim | perl -ne "if(m/error/i){system('cat ${TB}.log'); exit 1;}"
 
+nmos:
+	${MAKE} aim TB=nmos_vd same
+	
+pltnmos:
+	${plt} nmos_vd.csv v2 "vm(gain)" same
+
 clean:
 	-rm *.csv
 	-rm *.log
 	-rm *.sim
+

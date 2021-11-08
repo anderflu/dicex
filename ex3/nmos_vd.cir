@@ -1,0 +1,14 @@
+.include ../models/ptm_130.spi
+
+.option TNOM=27 GMIN=1e-20
+
+V1 VD VSS dc 1.5
+V2 Vg VSS dc 0
+V3 VSS 0 dc 0
+
+M1 VD VG VSS VSS nmos W=5u L=0.2u
+
+.dc V2 0 2 0.01
+
+.defwave ac gain=gm(m1)/gds(m1)
+.plot vm(gain)

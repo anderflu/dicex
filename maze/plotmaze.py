@@ -34,7 +34,7 @@ import os
 import subprocess
 pygame.init()
 
-size = width, height = 800, 800
+size = width, height = 600, 600
 speed = [2, 2]
 black = 0, 0, 0
 white = (255,255,255)
@@ -89,6 +89,7 @@ with open("turtle.txt","r") as fi:
 plot = False
 if(len(sys.argv)> 1):
     plot = True
+
 
 
 filenamelist = [0]*len(turtle)

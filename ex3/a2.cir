@@ -30,10 +30,10 @@ XN3 VX VG VDD VDD PCHIOA_4C
 * Analysis
 *----------------------------------------------------------------
 .op
-#com
+*#com
 .dc V2 2 3 0.0001
 .plot dc v(vx)
-#endcom
+*#endcom
 #com
 .ac dec 50 1k 1G
 .plot ac vm(vx)

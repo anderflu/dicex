@@ -56,14 +56,14 @@ VD3 VD VD3 dc 0
 *----------------------------------------------------------------
 * Analysis
 *----------------------------------------------------------------
-*#com
+#com
 .dc V2 0 1.5 0.01
 .plot dc v(vg1) v(vg2) v(vg3) v(vg4) i(vd1) i(vd2) i(vd3) v(vs1) v(vs2) v(vs3) v(vs4)
-*#endcom
-#com
+#endcom
+*#com
 .ac dec 50 1k 10k
 .defwave ac ro1=v(vd)/i(vd1)
 .defwave ac ro2=v(vd)/i(vd2)
 .defwave ac ro3=v(vd)/i(vd3)
 .plot ac vm(ro1) vm(ro2) vm(ro3)
-#endcom
+*#endcom

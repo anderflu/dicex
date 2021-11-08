@@ -54,7 +54,7 @@ XMP4d VX VG1 VDD VDD PCHIOA_12C
 .op
 
 
-#com
+*#com
 .ac dec 50 1k 1G
 .plot ac vm(vx)
-#endcom
+*#endcom
