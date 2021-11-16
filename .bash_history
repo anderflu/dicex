@@ -144,3 +144,14 @@ exit
 ./vncstart
 logout
 ./vncstart
+exit
+cd project
+cd dic_h21/project/spice
+make pixSens
+make ngspice
+make pixSens
+make pixSens
+cd ciceda
+cd home
+./vncstart
+logout

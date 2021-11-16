@@ -1,0 +1,28 @@
+name: dicex CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-20.04
+
+    steps:
+      - uses: actions/checkout@main
+      - name: eda
+        uses: actions/checkout@main
+        with:
+          repository: wulffern/eda
+          path: eda
+      - run: pip3 install --user -r requirements.txt
+      - name: Run programs
+        run:  |
+          echo "eda/bin" >> $GITHUB_PATH
+          export PATH=`pwd`/eda/bin:$PATH
+          echo $HOME
+          make test

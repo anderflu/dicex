@@ -3,84 +3,6 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/ciceda/ex3/a1.cir" added="2021-10-06T15:02:46.080064Z" modified="2021-10-06T15:02:46.080069Z" visited="2021-10-06T15:02:46.080064Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/plain"/>
-        <bookmark:groups>
-          <bookmark:group>gedit</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-06T15:02:46.080066Z" count="1"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/ciceda/ex3/Makefile" added="2021-10-06T15:02:58.947580Z" modified="2021-10-08T12:09:54.213535Z" visited="2021-10-06T15:02:58.947582Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/x-makefile"/>
-        <bookmark:groups>
-          <bookmark:group>gedit</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-08T12:09:54.213530Z" count="18"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/ciceda/ex3/cm.cir" added="2021-10-07T11:04:15.787128Z" modified="2021-10-07T14:53:34.449722Z" visited="2021-10-07T11:04:15.787129Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/plain"/>
-        <bookmark:groups>
-          <bookmark:group>gedit</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-07T14:53:34.449717Z" count="3"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/ciceda/ex3/nmos_vd.cir" added="2021-10-07T15:12:41.173472Z" modified="2021-10-07T15:21:59.727781Z" visited="2021-10-07T15:12:41.173473Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/plain"/>
-        <bookmark:groups>
-          <bookmark:group>gedit</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-07T15:21:59.727775Z" count="3"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/ciceda/ex3/a2.cir" added="2021-10-07T15:36:17.204252Z" modified="2021-10-08T12:00:53.157668Z" visited="2021-10-07T15:36:17.204252Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/plain"/>
-        <bookmark:groups>
-          <bookmark:group>gedit</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-08T12:00:53.157661Z" count="7"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
-  <bookmark href="file:///home/ciceda/ex3/a2_bias.cir" added="2021-10-07T16:16:04.812393Z" modified="2021-10-08T12:09:10.769993Z" visited="2021-10-07T16:16:04.812395Z">
-    <info>
-      <metadata owner="http://freedesktop.org">
-        <mime:mime-type type="text/plain"/>
-        <bookmark:groups>
-          <bookmark:group>gedit</bookmark:group>
-        </bookmark:groups>
-        <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-08T12:09:10.769986Z" count="5"/>
-        </bookmark:applications>
-      </metadata>
-    </info>
-  </bookmark>
   <bookmark href="file:///home/ciceda/maze/plotmaze.py" added="2021-11-03T19:36:26.262813Z" modified="2021-11-03T22:17:07.165079Z" visited="2021-11-03T19:36:26.262814Z">
     <info>
       <metadata owner="http://freedesktop.org">
@@ -107,7 +29,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/ciceda/project/spice/Makefile" added="2021-11-03T20:00:40.013667Z" modified="2021-11-03T20:00:40.013674Z" visited="2021-11-03T20:00:40.013668Z">
+  <bookmark href="file:///home/ciceda/project/spice/Makefile" added="2021-11-03T20:00:40.013667Z" modified="2021-11-12T13:30:44.299081Z" visited="2021-11-03T20:00:40.013668Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/x-makefile"/>
@@ -115,7 +37,7 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-11-03T20:00:40.013671Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-11-12T13:30:44.299074Z" count="5"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -311,6 +233,71 @@
         </bookmark:groups>
         <bookmark:applications>
           <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-11-05T11:36:01.756395Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ciceda/project/spice/pixelSensor.cir" added="2021-11-12T13:25:46.134979Z" modified="2021-11-12T13:32:48.921585Z" visited="2021-11-12T13:25:46.134979Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-11-12T13:32:48.921579Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ciceda/dic_h21/project/spice/Makefile" added="2021-11-14T10:49:38.635029Z" modified="2021-11-15T10:32:37.705732Z" visited="2021-11-14T10:49:38.635031Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-makefile"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-11-15T10:32:37.705729Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ciceda/dic_h21/project/spice/pixelSensor.cir" added="2021-11-15T10:29:41.481043Z" modified="2021-11-15T10:29:50.366300Z" visited="2021-11-15T10:29:41.481044Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-11-15T10:29:50.366298Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ciceda/project_old/spice/Makefile" added="2021-11-15T10:38:09.283488Z" modified="2021-11-15T12:02:15.626534Z" visited="2021-11-15T10:38:09.283489Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-makefile"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-11-15T12:02:15.626531Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/ciceda/project_old/spice/pixelSensor.cir" added="2021-11-15T11:59:34.801643Z" modified="2021-11-15T11:59:49.401404Z" visited="2021-11-15T11:59:34.801643Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-11-15T11:59:49.401400Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
