@@ -2,7 +2,7 @@
 plt=python3 ../../py/plot.py
 
 pixSens:
-	${MAKE} ngspice	 TB=pixelSensorNew_tb
+	${MAKE} ngspice	 TB=pixelSensorN_tb
 
 
 
