@@ -315,7 +315,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/ciceda/project_old/verilog/Makefile" added="2021-11-17T19:46:08.203907Z" modified="2021-11-17T19:46:08.203947Z" visited="2021-11-17T19:46:08.203909Z">
+  <bookmark href="file:///home/ciceda/project_old/verilog/Makefile" added="2021-11-17T19:46:08.203907Z" modified="2021-11-17T20:26:33.004948Z" visited="2021-11-17T19:46:08.203909Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/x-makefile"/>
@@ -323,7 +323,7 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-11-17T19:46:08.203944Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-11-17T20:26:33.004945Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>

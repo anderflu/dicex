@@ -19,7 +19,7 @@
  <document uri="file:///home/ciceda/ex5/Makefile" atime="1636107160072">
   <entry key="gedit-position" value="0"/>
  </document>
- <document uri="file:///home/ciceda/ex5/fullAdder.v" atime="1636140820984">
+ <document uri="file:///home/ciceda/maze/mazegen.v" atime="1636038565099">
   <entry key="gedit-position" value="0"/>
  </document>
  <document uri="file:///home/ciceda/ex1/diode.cir" atime="1631278440348">
@@ -38,10 +38,8 @@
   <entry key="gedit-spell-language" value="en_US"/>
   <entry key="gedit-position" value="1634"/>
  </document>
- <document uri="file:///home/ciceda/project_old/spice/Makefile" atime="1637085796286">
-  <entry key="gedit-encoding" value="UTF-8"/>
-  <entry key="gedit-spell-language" value="en_US"/>
-  <entry key="gedit-position" value="73"/>
+ <document uri="file:///home/ciceda/ex1/diode.log" atime="1631278766385">
+  <entry key="gedit-position" value="920"/>
  </document>
  <document uri="file:///home/ciceda/ex1/diode.sim" atime="1631278501971">
   <entry key="gedit-position" value="0"/>
@@ -49,13 +47,32 @@
  <document uri="file:///home/ciceda/ex4/Makefile" atime="1636108175098">
   <entry key="gedit-position" value="0"/>
  </document>
- <document uri="file:///home/ciceda/ex5/MAKEFILE" atime="1636022545121">
-  <entry key="gedit-position" value="0"/>
+ <document uri="file:///home/ciceda/project_old/spice/pixelSensorN.cir" atime="1637146100281">
+  <entry key="gedit-encoding" value="UTF-8"/>
+  <entry key="gedit-spell-language" value="en_US"/>
+  <entry key="gedit-position" value="3264"/>
  </document>
  <document uri="file:///home/ciceda/ex3/cm.cir" atime="1633618418406">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="en_US"/>
   <entry key="gedit-position" value="1737"/>
+ </document>
+ <document uri="file:///home/ciceda/ex1/diode_source.sim" atime="1631279437683">
+  <entry key="gedit-position" value="0"/>
+ </document>
+ <document uri="file:///home/ciceda/project/spice/pixelSensor.cir" atime="1636723970661">
+  <entry key="gedit-encoding" value="UTF-8"/>
+  <entry key="gedit-spell-language" value="en_US"/>
+  <entry key="gedit-position" value="0"/>
+ </document>
+ <document uri="file:///home/ciceda/ex1/diode.csv" atime="1631278448287">
+  <entry key="gedit-position" value="0"/>
+ </document>
+ <document uri="file:///home/ciceda/ex5/MAKEFILE" atime="1636022545121">
+  <entry key="gedit-position" value="0"/>
+ </document>
+ <document uri="file:///home/ciceda/maze/maze_tb.v" atime="1636109399910">
+  <entry key="gedit-position" value="0"/>
  </document>
  <document uri="file:///home/ciceda/project/spice/Makefile" atime="1636723846086">
   <entry key="gedit-encoding" value="UTF-8"/>
@@ -67,24 +84,13 @@
   <entry key="gedit-spell-language" value="en_US"/>
   <entry key="gedit-position" value="0"/>
  </document>
- <document uri="file:///home/ciceda/project/spice/pixelSensor.cir" atime="1636723970661">
-  <entry key="gedit-encoding" value="UTF-8"/>
-  <entry key="gedit-spell-language" value="en_US"/>
-  <entry key="gedit-position" value="0"/>
- </document>
- <document uri="file:///home/ciceda/maze/mazegen.v" atime="1636038565099">
-  <entry key="gedit-position" value="0"/>
- </document>
- <document uri="file:///home/ciceda/maze/maze_tb.v" atime="1636109399910">
-  <entry key="gedit-position" value="0"/>
- </document>
- <document uri="file:///home/ciceda/ex1/diode.log" atime="1631278766385">
-  <entry key="gedit-position" value="920"/>
- </document>
  <document uri="file:///home/ciceda/ex3/Makefile" atime="1633695005749">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="en_US"/>
   <entry key="gedit-position" value="201"/>
+ </document>
+ <document uri="file:///home/ciceda/ex5/fullAdder.v" atime="1636140820984">
+  <entry key="gedit-position" value="0"/>
  </document>
  <document uri="file:///home/ciceda/ex3/a2.cir" atime="1633694454353">
   <entry key="gedit-encoding" value="UTF-8"/>
@@ -94,16 +100,10 @@
  <document uri="file:///home/ciceda/ex1/diode_rsweep.cir" atime="1631277668124">
   <entry key="gedit-position" value="0"/>
  </document>
- <document uri="file:///home/ciceda/ex1/diode.csv" atime="1631278448287">
-  <entry key="gedit-position" value="0"/>
- </document>
- <document uri="file:///home/ciceda/project_old/spice/pixelSensorN.cir" atime="1637146100281">
+ <document uri="file:///home/ciceda/project_old/spice/Makefile" atime="1637085796286">
   <entry key="gedit-encoding" value="UTF-8"/>
   <entry key="gedit-spell-language" value="en_US"/>
-  <entry key="gedit-position" value="3264"/>
- </document>
- <document uri="file:///home/ciceda/ex1/diode_source.sim" atime="1631279437683">
-  <entry key="gedit-position" value="0"/>
+  <entry key="gedit-position" value="73"/>
  </document>
  <document uri="file:///home/ciceda/ex3/a2_bias.cir" atime="1633694971259">
   <entry key="gedit-encoding" value="UTF-8"/>
@@ -112,6 +112,11 @@
  </document>
  <document uri="file:///home/ciceda/ex2/Makefile" atime="1632496950380">
   <entry key="gedit-position" value="0"/>
+ </document>
+ <document uri="file:///home/ciceda/project_old/verilog/Makefile" atime="1637180794841">
+  <entry key="gedit-encoding" value="UTF-8"/>
+  <entry key="gedit-spell-language" value="en_US"/>
+  <entry key="gedit-position" value="260"/>
  </document>
  <document uri="file:///home/ciceda/project_old/spice/pixelSensor.cir" atime="1636977590175">
   <entry key="gedit-encoding" value="UTF-8"/>
