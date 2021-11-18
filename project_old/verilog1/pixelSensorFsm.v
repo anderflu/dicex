@@ -40,7 +40,7 @@ module pixelSensorFsm(
                       );
 
 
-     //State duration in clock cycles
+   //State duration in clock cycles
    parameter integer c_erase = 5;
    parameter integer c_expose = 255;
    parameter integer c_convert = 255;

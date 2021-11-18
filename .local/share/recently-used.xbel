@@ -328,4 +328,17 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/ciceda/project_old/spice1/Makefile" added="2021-11-18T10:03:15.681160Z" modified="2021-11-18T10:04:53.077197Z" visited="2021-11-18T10:03:15.681162Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-makefile"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-11-18T10:04:53.077190Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

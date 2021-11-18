@@ -1,5 +1,4 @@
-module pixel_Array
-    (
+module pixel_Array(
     input logic      VBN1,
     input logic      RAMP,
     input logic      RESET,
@@ -10,9 +9,7 @@ module pixel_Array
     input logic      READ3,
     input logic      READ4,
     inout [7:0]      DATA,
-    
     );
-
 
     PIXEL_SENSOR # () inst1(
         .VBN1 (VBN1),
@@ -21,7 +18,8 @@ module pixel_Array
         .ERASE (ERASE),
         .EXPOSE (EXPOSE),
         .READ (READ1)
-        .DATA (DATA));
+        .DATA (DATA)
+        );
 
     PIXEL_SENSOR # () inst2(
         .VBN1 (VBN1),
@@ -30,7 +28,8 @@ module pixel_Array
         .ERASE (ERASE),
         .EXPOSE (EXPOSE),
         .READ (READ2)
-        .DATA (DATA));
+        .DATA (DATA)
+        );
 
     PIXEL_SENSOR # () inst3(
         .VBN1 (VBN1),
@@ -39,7 +38,8 @@ module pixel_Array
         .ERASE (ERASE),
         .EXPOSE (EXPOSE),
         .READ (READ3)
-        .DATA (DATA));
+        .DATA (DATA)
+        );
 
     PIXEL_SENSOR # () inst4(
         .VBN1 (VBN1),
@@ -48,6 +48,7 @@ module pixel_Array
         .ERASE (ERASE),
         .EXPOSE (EXPOSE),
         .READ (READ4)
-        .DATA (DATA));
+        .DATA (DATA)
+        );
 
 endmodule
