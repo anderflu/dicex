@@ -99,7 +99,7 @@ module pixelSensorFsm(
    //TODO: The counter should probably be an always_comb. Might be a good idea
    //to also reset the counter from the state machine, i.e provide the count
    //down value, and trigger on 0
-   always_comb  begin //Runs every time any of the inputs changes
+   always_comb   begin //Runs every time any of the inputs changes
       if(reset) begin
          state = IDLE;
          next_state = ERASE;
@@ -128,8 +128,8 @@ module pixelSensorFsm(
            end
            READ:
              if(counter == c_read) begin
-                state = IDLE;
                 next_state = ERASE;
+                state = IDLE;
              end
            IDLE:
              state = next_state;

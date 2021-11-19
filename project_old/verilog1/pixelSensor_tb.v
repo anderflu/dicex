@@ -157,8 +157,8 @@ module pixelSensor_tb;
            end
            READ:
              if(counter == c_read) begin
-                state = IDLE;
                 next_state = ERASE;
+                state = IDLE;
              end
            IDLE:
              state = next_state;

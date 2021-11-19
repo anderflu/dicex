@@ -124,18 +124,19 @@ module pixelSensor_tb;
    //------------------------------------------------------------
    // Testbench stuff
    //------------------------------------------------------------
+   
    initial
-     begin
-        reset = 1;
+      begin
+         reset = 1;
 
-        #clk_period  reset=0;
+         #clk_period  reset=0;
 
-        $dumpfile("pixelSensor_tb.vcd");
-        $dumpvars(0,pixelSensor_tb);
+         $dumpfile("pixelSensor_tb.vcd");
+         $dumpvars(0,pixelSensor_tb);
 
-        #sim_end
-          $stop;
+         #sim_end
+         $stop;
 
-     end
+      end
 
 endmodule // test

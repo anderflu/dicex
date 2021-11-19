@@ -61,17 +61,17 @@ C1 VG VSS 1p
 
 .SUBCKT SENSOR VRESET VSTORE ERASE EXPOSE VDD VSS
 * Weak inversion
-*M1 VRESET ERASE VSTORE VSS nmos w=0.5u l=0.5u
-*M2 VPG EXPOSE VSTORE VSS nmos w=0.5u l=0.5u
+M1 VRESET ERASE VSTORE VSS nmos w=0.5u l=0.5u
+M2 VPG EXPOSE VSTORE VSS nmos w=0.5u l=0.5u
 * Capacitor to model gate-source capacitance
 C1 VSTORE VSS 100f
-leak VSTORE VSS 100T
+*Rleak VSTORE VSS 100T
 
 * Switch to reset voltage on capacitor
-BR1 VRESET VSTORE I=V(ERASE)*V(VRESET,VSTORE)/1k
+*BR1 VRESET VSTORE I=V(ERASE)*V(VRESET,VSTORE)/1k
 
 * Switch to expose pixel
-BR2 VPG VSTORE I=V(EXPOSE)*V(VSTORE,VPG)/1k
+*BR2 VPG VSTORE I=V(EXPOSE)*V(VSTORE,VPG)/1k
 
 * Model photocurrent
 Rphoto VPG VSS 1G
@@ -91,11 +91,11 @@ M4 M3D VRAMP M2S VSS nmos w=0.5u l=0.15u
 * Not a current mirror
 * Signal does not go through here. Strong is stable is good
 M5 M2S 5V VSS VSS nmos w=0.5u l=0.5u
-M7 M6D 5V VSS VSS nmos w=0.5u l=0.5u
+M6 M6D 5V VSS VSS nmos w=0.5u l=0.5u
 
 * Source follower
 * Signal goes here, be weak, be quick
-M6 M6D M3D VDD VDD pmos w=0.5u l=0.15u
+M7 M6D M3D VDD VDD pmos w=0.5u l=0.15u
 
 * Inverter
 M8 VCMP_OUT M6D VDD VDD pmos w=0.5u l=0.5u
